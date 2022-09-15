@@ -16,6 +16,31 @@ public class Program
 		myOperator.Compare(3,4);
 		myOperator.CheckPassword("SevenOF9");
 		myOperator.CheckPassword("OU812");
+  
+		if (94 < 95) {
+  			printf(" and 94 is bigger than 29");
+			
+  		int bank = -3;
+  			if (bank > 0) {
+  				printf(" you have money in your bank account");
+  			} else {
+  				printf(" you have no money :(");
+  			}
+
+			int ammoCount = 0;
+  			if (ammoCount > 2) {
+  				printf("Plenty of ammo left.");
+    		}
+   			else if (ammoCount == 1) {
+   				printf(" Last mag!");
+   			}
+   			else{
+				printf(" OUT OF AMMO!");
+   			}
+
+			int mobs = 6;
+  			(mobs > 0) ? printf(" you can not sleep yet, their are monsters near by.") : printf(" Sleep time!");
+		}
 	}
 }
 
@@ -39,5 +64,7 @@ public class Operations {
 		} else {
 			Console.WriteLine("Incorrect Password");	
 		}
-	}
+
+}
+
 }
